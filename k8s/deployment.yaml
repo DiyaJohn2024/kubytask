@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: diyaajo7/flask-k8s-app:latest
+        image: nginx:alpine
         ports:
         - containerPort: 5000
 
